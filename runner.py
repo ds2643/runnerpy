@@ -57,6 +57,3 @@ def parse_pytest_result(test_path):
     result["failed"] = find_failed(test_outcome)
     result["time"] = find_time(test_outcome)
     return result
-
-# unittest
-

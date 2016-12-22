@@ -24,3 +24,11 @@ This simple module can be run called from within a python script:
 Approach
 ------
 The result of running the tests is intercepted from std.out, and stored as a string. The resultant string is parsed with regular expressions. Counts of tests passed, tests failed, total tests, and time elapsed during are stored in a dictionary use by the caller.
+
+Tests
+------
+Tests are written in PyTest and may be run as follows:
+`
+    $> pytest test.py # from inside runnerpy/ directory
+    # ... [result] ...
+`
