@@ -28,6 +28,7 @@ The result of running the tests is intercepted from std.out, and stored as a str
 Tests
 ------
 Tests are written in PyTest and may be run as follows:
+
 `
     $> pytest test.py # from inside runnerpy/ directory
     # ... [result] ...
